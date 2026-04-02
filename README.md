@@ -99,7 +99,7 @@ docker run --rm -it \
 
 - Make sure Docker Desktop or your Docker engine is installed and running before building or starting the app container.
 - For local runs, use `DB_HOST=localhost`.
-- The MariaDB container initializes the schema automatically from [init.sql](/Users/ntbngoc/Downloads/Metropolia/Year2/SEP/SEP2/Assignment/OTP2_Week3/init.sql).
+- The MariaDB container initializes the schema automatically from [init.sql](init.sql).
 - Because the application uses JavaFX, Docker also needs access to a GUI display server from your host machine.
 - On macOS, install and start XQuartz, then allow network client connections before running the container.
 - On Windows, run an X server such as VcXsrv or Xming before starting the container.
