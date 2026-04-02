@@ -21,7 +21,6 @@ DB_PORT=3306
 DB_NAME=shopping_cart_localization
 DB_USERNAME=root
 DB_PASSWORD=password
-HOST_DB_PORT=3306
 ```
 
 You can create it from the sample file:
